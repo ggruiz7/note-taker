@@ -1,26 +1,3 @@
-// const express = require('express');
-
-// const apiRoutes = require('./routes/apiRoutes');
-
-// const htmlRoutes = require('./routes/htmlRoutes');
-
-// // create port
-// const app = express();
-
-// const PORT = process.env.PORT || 3001;
-
-// // setup middleware
-// app.use(express.json());
-// app.use(express.urlencoded({extended: true}));
-// app.use(express.static('public'));
-// app.use('/', htmlRoutes);
-// app.use('/api', apiRoutes);
-
-// // start sevver
-// app.listen(PORT, () => {
-//     console.log(`app is listening on port: ${PORT}`);
-// });
-
 // dependencies
 const express = require("express");
 const path = require("path");
